@@ -163,3 +163,57 @@ padding-top: 40rem;
   font-size: 3rem;
   left: 1rem;
 }
+
+
+footer{
+display: flex;
+flex-direction: column;
+}
+.background{
+  background-color: rgba(128, 128, 128, 0.194);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+height: 50rem;
+padding-top: 5rem;
+}
+.list{
+  display: grid;
+  padding-left: 8rem;
+  padding-bottom: 15rem;
+ 
+  
+}
+.lastList{
+  padding-bottom: 25rem;
+}
+.list a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#SocialMedias{
+  padding-left: 8rem;
+  display: flex;
+  gap: 2rem
+}
+img[alt="SocialM"]{
+  width: 3rem;
+
+}
+.Ultimo{
+  display: flex;
+  justify-content: left;
+  padding-left: 4rem;
+  font-weight: bold;
+}
+#FooterFirst{
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 7rem;
+  padding-left: 8rem;
+}
+#FooterFirst p:last-child{
+  font-weight: bold;
+}
