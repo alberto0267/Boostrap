@@ -1,0 +1,165 @@
+.container-fluid {
+  border-bottom: 3px solid rgb(194, 191, 191);
+  opacity: 0.8;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  /* background-color: gray; */
+}
+.container-fluid a{
+  color: white;
+}
+.FirstBack {
+  /* background-image: center; */
+
+  /* background-position: center; */
+  background-position: center;
+}
+header {
+  background-image: url(./Images/bwmGIf.gif);
+  height: 100rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.d-grid{
+  color: white;
+  font-size: 5rem;
+  display: flex;
+  position: relative;
+  top: 30rem;
+  left: 7rem;
+}
+img[alt="mLogo"]{
+  width: 10rem;
+  height: 7rem;
+  
+  /* height: 10rem; */
+}
+.logoText{
+  display: flex;
+  gap: 1rem;
+}
+.m5{
+  font-size: 25rem;
+}
+.btn-primary{
+  width: 40rem;
+  height: 5rem;
+}
+.noColor{
+  background-color: rgba(240, 248, 255, 0);
+}
+.navbar-brand img {
+ filter: blur();
+}
+.container{
+  border: 2px solid red;
+  color: aliceblue;
+  background-color: aliceblue;
+}
+.cardAll{
+  display: flex;
+  flex-direction: row;
+  gap: 30rem;
+  justify-content: center;
+}
+ .card {
+ 
+  align-items: center;
+ }
+ .card p{
+  text-align: center;
+ }
+ .card-body a{
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  height: 3rem;
+  width: 25rem;
+  border-radius: 1rem;
+ }
+ .cardText{
+  display: flex;
+  font-size: 5rem;
+  padding-bottom: 5rem;
+
+  right: 10rem;
+  justify-content: center;
+  
+ }
+ #partTree{
+ 
+  background-image: url(./Images/image2.jpg);
+ height: 100rem;
+ background-position: center;
+ background-size: cover;
+ }
+ .price{
+font-weight: bold;
+ }
+ #from{
+  font-size: 3rem;
+ }
+.Promo{
+  font-size: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+ }
+ #partFive{
+  background-image:url(./Images/imagePlaya.jpeg) ;
+  background-position: center;
+  background-size: cover;
+  height: 100rem;
+ }
+ .textPartFive{
+  display: flex;
+  align-content: center;
+  top: 72rem;
+ }
+ #partSix{
+  font-size: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+ }
+ #partSeven{
+  background-image:url(./Images/TheIx1.webp) ;
+  background-position: center;
+  background-size: cover;
+  height: 100rem;
+
+ }
+
+ .partSevenClass{
+top: initial;
+padding-top: 4rem;
+ }
+.partSevenText{
+padding-top: 40rem;
+}
+.partEigth{
+  display: flex;
+  gap: 4rem;
+}
+.img-fluid{
+  height: 100rem;
+  width: 166rem;
+  padding-left: 4rem;
+}
+.cardEigth{
+  left: 150rem;
+  justify-self: center;
+  padding-top: 32rem;
+  width: 100rem;
+  font-size: 3rem;
+}
+.card-title{
+  font-weight: bold;
+}
+.buttonE{
+  border: 0px solid;
+  color: black;
+  font-size: 3rem;
+  left: 1rem;
+}
